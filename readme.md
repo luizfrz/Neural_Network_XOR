@@ -1,5 +1,6 @@
-## Desafio boitata
-- ` Implementar uma rede neural usando apenas numpy para resolver o problema do operador XOR`
+# Neural Network - Operator XOR
+
+` A neural network to solve the XOR operator problem. `
 
 ## XOR - Truth Table
 | A | B | XOR |
