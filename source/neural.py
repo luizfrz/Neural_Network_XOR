@@ -41,7 +41,6 @@ for i in range(epochs):
     error = output - output_layer
 
     if i % 1000 == 0:
-        print("Capturando erros...")
         print(f"Época {i} - Erro médio: {np.mean(np.abs(error))}")
 
     # Backpropagation
