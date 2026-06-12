@@ -1,6 +1,6 @@
 # Neural Network - Operator XOR
-
-` A neural network to solve the XOR operator problem. `
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Neural_network.svg">
+- A neural network to solve the XOR operator problem.
 
 ## XOR - Truth Table
 | A | B | XOR |
@@ -18,7 +18,7 @@ pip install numpy matplotlib notebook
 jupyter notebook
 ```
 
-## Estrutura do Projeto
+## Structure
 
 ```text
 XOR NEURAL NETWORK/
