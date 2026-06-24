@@ -18,11 +18,18 @@ pip install numpy matplotlib notebook
 jupyter notebook
 ```
 
+## Run
+```text
+python3 neural.py
+```
+
+
 ## Structure
 
 ```text
 XOR NEURAL NETWORK/
 ├── source/
-│   ├── notebook/XOR_Details.ipynb 
+│   ├── notebook/
+XOR_Details.ipynb 
 │   ├── neural.py
 ```

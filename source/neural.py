@@ -43,13 +43,11 @@ for i in range(epochs):
     if i % 1000 == 0:
         print(f"Época {i} - Erro médio: {np.mean(np.abs(error))}")
 
-    # Backpropagation
     delta_output = error * derivative(output_layer)
 
     error_hidden = delta_output.dot(w1.T)
     delta_hidden = error_hidden * derivative(hidden_layer)
 
-    # Ajuste dos pesos
     w1 += hidden_layer.T.dot(delta_output) * learning_rate
     w0 += input.T.dot(delta_hidden) * learning_rate
 
@@ -59,7 +57,6 @@ print((output_layer > 0.5).astype(int))
 print("\nSaída esperada:")
 print(output)
 
-# Resultado final
 print("\nResultado final:")
 print(output_layer)
 
