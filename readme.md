@@ -20,9 +20,8 @@ jupyter notebook
 
 ## Run
 ```text
-python3 neural.py
+python3 neural.py 
 ```
-
 
 ## Structure
 
@@ -31,5 +30,6 @@ XOR NEURAL NETWORK/
 ├── source/
 │   ├── notebook/
 XOR_Details.ipynb 
+│   ├── code/
 │   ├── neural.py
 ```

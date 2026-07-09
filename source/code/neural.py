@@ -28,7 +28,7 @@ w1 = 2 * np.random.random((3, 1)) - 1
 
 epochs = 10000
 
-learning_rate = 0.1
+learning_rate = 10
 
 for i in range(epochs):
 
